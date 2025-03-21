@@ -1,6 +1,6 @@
 # Hopfield Model Analysis
 
-This project implements a comprehensive analysis of the **Hopfield model** for pattern recognition and image reconstruction using Python. It was developed as part of the course **Laboratory of Computational Physics A**, academic year 2023-2024.
+This project implements a comprehensive analysis of the **Hopfield model** for pattern recognition and image reconstruction using Python. It was developed as part of the course **Laboratory of Computational Physics A**, academic year 2024-2025.
 
 ## Authors
 - Chiara Tramarin   
