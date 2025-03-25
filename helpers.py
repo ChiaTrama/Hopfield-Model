@@ -106,8 +106,8 @@ def grid_search_random_task(params, patterns=None, corruption_function=None):
     # Compute metrics.
     overlaps = [model.overlap(patterns[i], recovered[i]) for i in range(n_patterns)]
     avg_overlap = np.mean(overlaps)
-    #std_overlap = np.std(overlaps)
-    std_overlap = np.sqrt((avg_overlap * (1 - avg_overlap)) / dim)
+    std_overlap = np.std(overlaps)
+    #std_overlap = np.sqrt((avg_overlap * (1 - avg_overlap)) / dim)
     interference = model.memory_interference()
     E_diff = model.energy(recovered[0]) - model.energy(patterns[0])
     
